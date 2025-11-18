@@ -6,7 +6,6 @@ mylat = 50.065930370814804
 mylong = 8.785707202354097
 tree_line = 10
 
-# bounds = fr_api.get_bounds_by_point(42.446245283368356, -71.41279003817982, 15000)
 bounds = fr_api.get_bounds_by_point(mylat, mylong, 10000)
 
 flights = fr_api.get_flights(bounds=bounds)
